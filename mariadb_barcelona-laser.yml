@@ -6,8 +6,6 @@ services:
   adminer:
     image: adminer
     restart: always
-    #username: admin
-    # password: password123
     ports:
       - 9000:8080
 
